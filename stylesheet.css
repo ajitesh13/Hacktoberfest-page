@@ -3,7 +3,8 @@ body{
 	background-image: url("public/Screenshot from 2019-10-02 09-04-03.png");
 	background-position: center;
 	background-size: cover;
-	color: white;	
+	color: #99a1b3;	
+	font-size: 20px
 }
 nav{
 	background-image: url("public/Screenshot from 2019-10-02 09-04-03.png");
@@ -12,6 +13,7 @@ nav{
 }
 
 ul{
+	list-style-type:none;
 	padding: 10px;
 }
 #image{
@@ -20,11 +22,6 @@ ul{
 #image:hover{
 	transform: scale(1.2);
 }
-
-li:hover{
-	border-bottom: 2px solid #fff922;
-}
-
 .list-item{
 	font-size: 20px; 
 }
@@ -47,7 +44,57 @@ li:hover{
 	padding-left: 30px;
 	padding-bottom: 0;
 }
+.title-1{
+	font-family: 'Space Mono', monospace;
+	font-size:5rem;
+	font-weight: bolder;
+	margin-top:5rem;
+	color:yellow;
+	text-align:center;
+}
+.title-2{
+	font-family: 'Space Mono', monospace;
+	font-size:2.75rem;
+	font-weight: bold;
+	margin-top:2rem;
+	color:white;
+}
+.container{
+	font-family: 'Space Mono', monospace;
+	flex-grow:1;
+	margin:0 auto;
+	position:relative;
+	width:auto;
+}
+.steps-list{
+	margin-left:3%;
+}
 
+.underline-div{
+	width:100%;
+	height:1px;
+	margin-top:10px;
+	background-color:#ff00aa
+}
+@media screen and (min-width: 1024px){
+	.container{width: 85%}
+}
 
-
-
+body.section{
+	padding:0 135px;
+	margin:0;
+}
+@media screen and (max-width: 1288px){
+	body.section{
+		padding:30px 85px 30px 85px;
+	}
+}
+@media screen and (max-width: 1024px){
+	body.section{
+		padding:30px 30px 30px 30px;
+		text-align:center;
+	}
+}
+.pink-highlight{
+	color:#ff00aa;
+}
