@@ -1,8 +1,19 @@
+body{
+	font-family: "Space Mono", monospace;
+}
 
 nav{
 	background-image: url("public/Screenshot from 2019-10-02 09-04-03.png");
 	background-position: center;
 	background-size: cover;		
+}
+
+ul{
+	padding: 10px;
+}
+
+li:hover{
+	border-bottom: 2px solid #fff922;
 }
 body{
 	background-image: url("public/Screenshot from 2019-10-02 09-04-03.png");
