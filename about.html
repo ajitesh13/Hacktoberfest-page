@@ -1,36 +1,37 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, intial-scale=1.0">
-    <meta http-eqqv="X-UA-Compatible" content="ie=edge">
-      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"crossorigin="anonymous">
-      <link rel="stylesheet" type="text/css" href="hacktober.css">
-    <title>Hacktober Fest</title>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>About</title>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+      <link rel="stylesheet" href="stylesheet.css">
   </head>
   <body>
-    <nav class="navbar navbar-expand-xl navbar-dark bg-dark">
-        <a class="navbar-brand" href="#"><img src="public/Hacktoberfest_19_Events_lockup_color_300x100.png"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-    
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav float-md-right">
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="events.html">Events</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="about.html">about</a>
-                </li>
+  <nav class="nav navbar navbar-default"> 
+    <div class="container-head container">
+          <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+
+              <a class="navbar-brand" href="hacktober.html"><img src="public/Hacktoberfest_19_Events_lockup_ko_300x100.png"></a>
+          </div>
+          <div id="navbar" class="collapse navbar-collapse">
+            <ul class="nav navbar-nav navbar-right list-item">
+                    <li><a href="hacktober.html">Home</a></li>
+                    <li><a href="events.html">Events</a></li>
+                    <li><a href="about.html">About</a></li>         
             </ul>
-        </div>
-    </nav>
-    <h1>What's Hacktoberfest?</h1>
+          </div>
+      </div>
+  </nav>
+   <div class="container">
+         <h1>What's Hacktoberfest?</h1>
     <p>Hacktoberfest — brought to you by DigitalOcean in partnership with DEV — is a month-long celebration of open source software. Maintainers are invited to guide would-be contributors toward issues that will help move the project forward, and contributors get the opportunity to give back to both projects they like and others they've just discovered. No contribution is too small — bug fixes and documentation updates are valid ways of participating.</p>
     <p>Can't make it to this event? Hacktoberfest is virtual and open to participants from around the globe. Sign up to participate today at <a href="https://hacktoberfest.digitalocean.com">https://hacktoberfest.digitalocean.com.</a></p>
 
@@ -43,20 +44,14 @@ Connect with other Hacktoberfest participants by using #hacktoberfest on your so
 <p>New to DigitalOcean? Receive USD $50 in infrastructure credit at <a href="https://do.co/hacktoberfest50">https://do.co/hacktoberfest50.</a></p>
 
 <p>Hacktoberfest events are welcoming, open, and inclusive. Include this line on your event page: "Please read our Events Code of Conduct before attending. <b>Happy Hacking!</b>"</p>
-   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-        crossorigin="anonymous"></script>    
-  </body>
+    </div>
+   
+
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+          crossorigin="anonymous"></script>
+        <!-- Custom JS for search feature -->
+        <script src="/scripts/search.js" async defer></script>
+        <!-- Bootstrap JS CDN -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    </body>
 </html>
-
-
-
-
-
-
-
-
-
