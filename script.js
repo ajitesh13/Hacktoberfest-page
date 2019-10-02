@@ -6,3 +6,20 @@ image.addEventListener("mouseover", function(){
 image.addEventListener("mouseout", function(){
     this.width = "350"
 });
+jQuery(function(){
+                var animateThankYou = function() {
+                    $('ul.animated-thank-you').find('li').css({'display':'none'});
+                    var obj = $('ul.animated-thank-you'), 
+                    lists = obj.children();
+                    $(lists).css({ 
+                        'opacity': 0,
+                        'display':'inline-block',
+                    });
+                    $( lists ).each(function( i ) {
+                        $(this).delay( i * 500 ).animate({ 
+                            'opacity': 1
+                        });
+                    });
+                };
+            animateThankYou();
+            });
