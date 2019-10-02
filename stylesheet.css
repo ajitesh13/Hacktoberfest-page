@@ -59,6 +59,14 @@ ul{
 	margin-top:2rem;
 	color:white;
 }
+.title-3{
+	font-family: 'Space Mono', monospace;
+	font-size:5rem;
+	font-weight: bold;
+	margin-top:5rem;
+	color:white;
+	text-align: center;
+}
 .container{
 	font-family: 'Space Mono', monospace;
 	flex-grow:1;
