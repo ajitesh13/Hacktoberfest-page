@@ -1,6 +1,6 @@
 var image = document.getElementById("image");
 image.addEventListener("mouseover", function(){
-    this.width = "400"
+    this.width = "450"
 });
 
 image.addEventListener("mouseout", function(){

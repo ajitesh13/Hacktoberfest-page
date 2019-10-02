@@ -12,6 +12,13 @@ ul{
 	padding: 10px;
 }
 
+#image{
+	padding: 50px;
+}
+#image:hover{
+	transform: scale(1.3);
+}
+
 li:hover{
 	border-bottom: 2px solid #fff922;
 }
