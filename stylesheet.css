@@ -11,10 +11,6 @@ nav{
 ul{
 	padding: 10px;
 }
-
-li:hover{
-	border-bottom: 2px solid #fff922;
-}
 body{
 	background-image: url("public/Screenshot from 2019-10-02 09-04-03.png");
 	background-position: center;
@@ -28,18 +24,23 @@ body{
 .navbar-nav>li>a{
 	color: yellow !important;
 	padding-top: 40px;
+	height: 80px;
 }
 .navbar-nav>li>a:hover{
 	color: white !important;
+	border-bottom: 2px solid #fff922;
 }
 .navbar-default{
 	border: 0;
+	padding-bottom: 20px;
 }
 .container-head{
 	width: auto;
-	padding-left: 40px;
-	padding-bottom: 50px;
+	padding: auto;
+	padding-left: 30px;
+	padding-bottom: 0;
 }
+
 
 
 
