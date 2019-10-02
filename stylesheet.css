@@ -1,7 +1,10 @@
 body{
 	font-family: "Space Mono", monospace;
+	background-image: url("public/Screenshot from 2019-10-02 09-04-03.png");
+	background-position: center;
+	background-size: cover;
+	color: white;	
 }
-
 nav{
 	background-image: url("public/Screenshot from 2019-10-02 09-04-03.png");
 	background-position: center;
@@ -11,13 +14,17 @@ nav{
 ul{
 	padding: 10px;
 }
-body{
-	background-image: url("public/Screenshot from 2019-10-02 09-04-03.png");
-	background-position: center;
-	background-size: cover;
-	color: white;
-	
+#image{
+	padding: 30px;
 }
+#image:hover{
+	transform: scale(1.2);
+}
+
+li:hover{
+	border-bottom: 2px solid #fff922;
+}
+
 .list-item{
 	font-size: 20px; 
 }
@@ -32,7 +39,7 @@ body{
 }
 .navbar-default{
 	border: 0;
-	padding-bottom: 20px;
+	padding-bottom: 0;
 }
 .container-head{
 	width: auto;
