@@ -122,21 +122,21 @@ body.section{
 ul.animated-thank-you { 
 
                  width:100%;
-                 max-width:1100px;
+                 max-width:1200px;
                  margin:0 auto;
-                 font-weight:500;
+                 font-weight:1000;
                  list-style-type: none;
                  padding: auto;
-                 padding-left:180px;
-                 padding-top: 0;
+                 padding: left 0;px;
+                 padding-top: 30px;
 }
 ul.animated-thank-you li { 
                  float:left;
                  display:none;
-                 height:40px;
-                 font-family: 'Satisfy', cursive;
-                 color: #ffa500;
-                 font-size:72px;
-                 padding-top: 100px;
-                 font-family: 'Mansalva', cursive;
+                 height:170px;
+                 font-family: "Space Mono", monospace;
+                 color: white;
+                 font-size:  70px;
+				 padding-top: 10px;
+                 
 }         
