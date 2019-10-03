@@ -16,14 +16,12 @@ jQuery(function(){
                         'display':'inline-block',
                     });
                     $( lists ).each(function( i ) {
-<<<<<<< HEAD
-                        $(this).delay( i * 700 ).animate({ 
-=======
                         $(this).delay( i * 800 ).animate({ 
->>>>>>> 9ad3b8292a95c298102141eb9b5a315edb1f1f2f
                             'opacity': 1
                         });
                     });
+                    setTimeout(animateThankYou, 7000);
                 };
+
             animateThankYou();
-            });
+});

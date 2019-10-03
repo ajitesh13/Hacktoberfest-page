@@ -1,0 +1,134 @@
+a{
+	color: rgb(0, 217, 255);
+}
+a:hover{
+	color: #ff00aa;
+}
+body{
+	font-family: "Space Mono", monospace;
+	background-image: url("public/Screenshot from 2019-10-02 09-04-03.png");
+	background-position: auto;
+	background-size: 1500px;
+	background-repeat: repeat;
+	color: #99a1b3;	
+	font-size: 20px
+}
+
+ul{
+	list-style-type:none;
+	padding: 10px;
+}
+
+#image{
+	padding: 30px;
+}
+.image1{
+	padding: 30px;
+	height: 200px;
+	width: 200px;
+}
+#image:hover{
+	transform: scale(1.2);
+}
+.list-item{
+	font-size: 20px; 
+}
+.navbar-nav>li>a{
+	color: yellow !important;
+	padding-top: 40px;
+	height: 50px;
+	font-size: 20px;
+	padding-bottom: 30px;
+}
+.navbar-nav>li>a:hover{
+	color: white !important;
+	border-bottom: 2px solid #fff922;
+}
+.navbar-default{
+	border: 0;
+	padding-bottom: 0;
+}
+.navbar-inner{
+    background-color: transparent;
+}
+.container-head{
+	width: auto;
+	padding: auto;
+	padding-left: 30px;
+	padding-right: 0;
+	padding-bottom: 0;
+}
+.title-1{
+	font-family: 'Space Mono', monospace;
+	font-size:5rem;
+	font-weight: bolder;
+	/*margin-top:5rem;*/
+	color:yellow;
+	text-align:center;
+}
+.title-2{
+	font-family: 'Space Mono', monospace;
+	font-size:2.75rem;
+	font-weight: bold;
+	margin-top:2rem;
+	color:white;
+}
+.title-3{
+	font-family: 'Space Mono', monospace;
+	font-size:5rem;
+	font-weight: bold;
+	margin-top:5rem;
+	color:white;
+	text-align: center;
+}
+.container{
+	font-family: 'Space Mono', monospace;
+	flex-grow:1;
+	margin:0 auto;
+	position:relative;
+	width:auto;
+}
+.points{
+	padding-left: 70px;
+}
+.pink-highlight{
+	color:#ff00aa;
+}
+
+@media screen and (min-width: 1024px){
+	.container{width: 85%}
+}
+
+body.section{
+	padding:0 135px;
+	margin:0;
+}
+@media screen and (max-width: 1288px){
+	body.section{
+		padding:30px 85px 30px 85px;
+	}
+}
+@media screen and (max-width: 1024px){
+	body.section{
+		padding:30px 30px 30px 30px;
+		text-align:center;
+	}
+}
+.title-4{
+	font-family: 'Space Mono', monospace;
+	font-size:1.5rem;
+	font-weight: bold;
+
+    margin-left:1.25rem;
+
+}
+.title-5{
+	font-family: 'Space Mono', monospace;
+	font-size:2rem;
+	font-weight: bold;
+	margin-top:0.25rem;
+	color:white;
+	margin-left:1.25rem;
+}
+
+
