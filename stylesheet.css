@@ -9,13 +9,15 @@ body{
 	background-image: url("public/Screenshot from 2019-10-02 09-04-03.png");
 	background-position: center;
 	background-size: cover;
+	background-repeat: repeat;
 	color: #99a1b3;	
 	font-size: 20px
 }
 nav{
 	background-image: url("public/Screenshot from 2019-10-02 09-04-03.png");
 	background-position: center;
-	background-size: cover;		
+	background-size: cover;	
+
 }
 
 ul{
@@ -35,6 +37,7 @@ ul{
 	color: yellow !important;
 	padding-top: 40px;
 	height: 80px;
+	font-size: 25px;
 }
 .navbar-nav>li>a:hover{
 	color: white !important;
@@ -54,7 +57,7 @@ ul{
 	font-family: 'Space Mono', monospace;
 	font-size:5rem;
 	font-weight: bolder;
-	margin-top:5rem;
+	/*margin-top:5rem;*/
 	color:yellow;
 	text-align:center;
 }
@@ -108,6 +111,9 @@ body.section{
 		padding:30px 30px 30px 30px;
 		text-align:center;
 	}
+}
+.points{
+	padding-left: 100px;
 }
 .pink-highlight{
 	color:#ff00aa;
