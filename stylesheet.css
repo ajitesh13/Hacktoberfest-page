@@ -1,3 +1,9 @@
+a{
+	color: yellow;
+}
+a:hover{
+	color: #ff00aa;
+}
 body{
 	font-family: "Space Mono", monospace;
 	background-image: url("public/Screenshot from 2019-10-02 09-04-03.png");

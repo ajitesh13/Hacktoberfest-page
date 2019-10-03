@@ -7,7 +7,26 @@
       <title>HactoberFest</title>
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
       <link rel="stylesheet" href="stylesheet.css">
-      
+      <style>
+            @import url('https://fonts.googleapis.com/css?family=Satisfy'); 
+            ul.animated-thank-you { 
+                 width:100%;
+                 max-width:320px;
+                 margin:0 auto;
+                 font-weight:500;
+                 list-style-type: none;
+                 padding-top: 40px;
+            }
+            ul.animated-thank-you li { 
+                 float:left;
+                 display:none;
+                 height:20px;
+                 font-family: "Space Mono", monospace;
+                 color: #ffa500;
+                 font: size 32;
+                 padding-top: 100px;
+            }                    
+        </style> 
   </head>
   <body>
   <nav class="nav navbar navbar-default"> 
@@ -25,24 +44,49 @@
             <ul class="nav navbar-nav navbar-right list-item">
                     <li><a href="hacktober.html">Home</a></li>
                     <li><a href="events.html">Events</a></li>
-                    <li><a href="about.html">About</a></li>         
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="https://forms.gle/GoDdPVD2UEPdp3A86" target="_blank">Registration</a></li>         
             </ul>
           </div>
       </div>
   </nav>
-
-</br>
-</br>
-<div class="container">
-  <h1 class="title-3"><span>IIIT Bhubhaneswar Welcomes you to</span></h1>
+<div>  
+  <ul class="animated-thank-you">
+    <li>Congratulations!</li>
+    <li>Your Data</li>
+    <li>Has Been</li>
+    <li>Succesfully</li>
+    <li>Submitted!!!</li>
+  </ul>
 </div>
 
+<script>
+  jQuery(function(){
+      var animateThankYou = function() {
+          $('ul.animated-thank-you').find('li').css({'display':'none'});
+          var obj = $('ul.animated-thank-you'), 
+          lists = obj.children();
+          $(lists).css({ 
+              'opacity': 0,
+              'display':'inline-block',
+          });
+          $( lists ).each(function( i ) {
+              $(this).delay( i * 500 ).animate({ 
+                  'opacity': 1
+              });
+          });
+      };
+  
+      animateThankYou();
+  });
+</script>
 <script src="script.js"></script>
 <script src="https://code.jquery.com/jquery-3.1.1.min.js"integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
           crossorigin="anonymous"></script>
         <!-- Custom JS for search feature -->
         <script src="/scripts/search.js" async defer></script>
         <!-- Bootstrap JS CDN -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     </body>
 </html>
