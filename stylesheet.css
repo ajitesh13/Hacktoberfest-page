@@ -14,7 +14,7 @@ body{
 	font-size: 20px
 }
 nav{
-	background-image: url("public/Screenshot from 2019-10-02 09-04-03.png");
+	background-image: url("public/nav-banner.png");
 	background-position: center;
 	background-size: cover;	
 
@@ -24,6 +24,7 @@ ul{
 	list-style-type:none;
 	padding: 10px;
 }
+
 #image{
 	padding: 30px;
 }
@@ -41,7 +42,7 @@ ul{
 }
 .navbar-nav>li>a:hover{
 	color: white !important;
-	border-bottom: 2px solid #fff922;
+	border-bottom: 1.5px solid #fff922;
 }
 .navbar-default{
 	border: 0;
@@ -87,6 +88,44 @@ ul{
 .steps-list{
 	margin-left:3%;
 }
+
+.points{
+	padding-left: 80px;
+}
+.pink-highlight{
+	color:#ff00aa;
+}
+ul.animated-thank-you { 
+
+                 width:100%;
+                 /*max-width:1250px;*/
+                 margin:0 auto;
+                 font-weight:1000;
+                 list-style-type: none;
+                 padding: auto;
+<<<<<<< HEAD
+                 /*padding: left 0;px;*/
+                 padding-top: 30px;
+=======
+                 padding: left 0;px;
+                 padding-top: 9px;
+>>>>>>> 9ad3b8292a95c298102141eb9b5a315edb1f1f2f
+}
+ul.animated-thank-you li { 
+                 /*float:left;*/
+                 display:none;
+                 height:165px;
+                 font-family: "Space Mono", monospace;
+                 color: white;
+                 font-size:  65px;
+				 padding-top: 9px;
+                 
+}  
+ul.animated-thank-you li.hacktober{
+	font-family: 'Mansalva', cursive;
+	font-size: 90px;
+	color: #ff00aa;
+}      
 @media screen and (min-width: 1024px){
 	.container{width: 85%}
 }
@@ -106,30 +145,30 @@ body.section{
 		text-align:center;
 	}
 }
-.points{
-	padding-left: 80px;
+@media only screen and (max-width: 600px) {
+	ul.animated-thank-you li{
+		font-size: 40px;
+		height: 100px;
+		font-family: 'Mansalva', cursive;
+	}
+	ul.animated-thank-you li.hacktober {
+		font-size: 50px;
+	}
 }
-.pink-highlight{
-	color:#ff00aa;
+.title-4{
+	font-family: 'Space Mono', monospace;
+	font-size:1.5rem;
+	font-weight: bold;
+	
+    margin-left:1.25rem;
+	
 }
-ul.animated-thank-you { 
+.title-5{
+	font-family: 'Space Mono', monospace;
+	font-size:2rem;
+	font-weight: bold;
+	margin-top:0.25rem;
+	color:white;
+	margin-left:1.25rem;
+}
 
-                 width:100%;
-                 /*max-width:1250px;*/
-                 margin:0 auto;
-                 font-weight:1000;
-                 list-style-type: none;
-                 padding: auto;
-                 /*padding: left 0;px;*/
-                 padding-top: 30px;
-}
-ul.animated-thank-you li { 
-                 /*float:left;*/
-                 display:none;
-                 height:170px;
-                 font-family: "Space Mono", monospace;
-                 color: white;
-                 font-size:  70px;
-				 padding-top: 10px;
-                 
-}         
