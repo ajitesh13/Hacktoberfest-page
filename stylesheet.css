@@ -1,5 +1,5 @@
 a{
-	color: yellow;
+	color: rgb(0, 217, 255);
 }
 a:hover{
 	color: #ff00aa;
@@ -86,13 +86,6 @@ ul{
 }
 .steps-list{
 	margin-left:3%;
-}
-
-.underline-div{
-	width:100%;
-	height:1px;
-	margin-top:10px;
-	background-color:#ff00aa
 }
 @media screen and (min-width: 1024px){
 	.container{width: 85%}
