@@ -143,7 +143,7 @@ body.section{
 @media only screen and (max-width: 600px) {
 	ul.animated-thank-you li{
 		font-size: 40px;
-		height: 70px;
+		height: 100px;
 		font-family: 'Mansalva', cursive;
 	}
 	ul.animated-thank-you li.hacktober {
