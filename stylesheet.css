@@ -42,7 +42,7 @@ ul{
 }
 .navbar-nav>li>a:hover{
 	color: white !important;
-	border-bottom: 2px solid #fff922;
+	border-bottom: 1.5px solid #fff922;
 }
 .navbar-default{
 	border: 0;
@@ -104,21 +104,21 @@ ul.animated-thank-you {
                  list-style-type: none;
                  padding: auto;
                  padding: left 0;px;
-                 padding-top: 30px;
+                 padding-top: 9px;
 }
 ul.animated-thank-you li { 
                  float:left;
                  display:none;
-                 height:170px;
+                 height:165px;
                  font-family: "Space Mono", monospace;
                  color: white;
-                 font-size:  70px;
-				 padding-top: 10px;
+                 font-size:  65px;
+				 padding-top: 9px;
                  
 }  
 ul.animated-thank-you li.hacktober{
 	font-family: 'Mansalva', cursive;
-	font-size: 95px;
+	font-size: 90px;
 	color: #ff00aa;
 }      
 @media screen and (min-width: 1024px){
@@ -149,5 +149,21 @@ body.section{
 	ul.animated-thank-you li.hacktober {
 		font-size: 50px;
 	}
+}
+.title-4{
+	font-family: 'Space Mono', monospace;
+	font-size:1.5rem;
+	font-weight: bold;
+	
+    margin-left:1.25rem;
+	
+}
+.title-5{
+	font-family: 'Space Mono', monospace;
+	font-size:2rem;
+	font-weight: bold;
+	margin-top:0.25rem;
+	color:white;
+	margin-left:1.25rem;
 }
 
