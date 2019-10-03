@@ -24,6 +24,7 @@ ul{
 	list-style-type:none;
 	padding: 10px;
 }
+
 #image{
 	padding: 30px;
 }
@@ -87,25 +88,7 @@ ul{
 .steps-list{
 	margin-left:3%;
 }
-@media screen and (min-width: 1024px){
-	.container{width: 85%}
-}
 
-body.section{
-	padding:0 135px;
-	margin:0;
-}
-@media screen and (max-width: 1288px){
-	body.section{
-		padding:30px 85px 30px 85px;
-	}
-}
-@media screen and (max-width: 1024px){
-	body.section{
-		padding:30px 30px 30px 30px;
-		text-align:center;
-	}
-}
 .points{
 	padding-left: 100px;
 }
@@ -132,4 +115,39 @@ ul.animated-thank-you li {
                  font-size:  70px;
 				 padding-top: 10px;
                  
-}         
+}  
+ul.animated-thank-you li.hacktober{
+	font-family: 'Mansalva', cursive;
+	font-size: 95px;
+	color: #ff00aa;
+}      
+@media screen and (min-width: 1024px){
+	.container{width: 85%}
+}
+
+body.section{
+	padding:0 135px;
+	margin:0;
+}
+@media screen and (max-width: 1288px){
+	body.section{
+		padding:30px 85px 30px 85px;
+	}
+}
+@media screen and (max-width: 1024px){
+	body.section{
+		padding:30px 30px 30px 30px;
+		text-align:center;
+	}
+}
+@media only screen and (max-width: 600px) {
+	ul.animated-thank-you li{
+		font-size: 40px;
+		height: 70px;
+		font-family: 'Mansalva', cursive;
+	}
+	ul.animated-thank-you li.hacktober {
+		font-size: 50px;
+	}
+}
+
