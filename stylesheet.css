@@ -107,7 +107,7 @@ body.section{
 	}
 }
 .points{
-	padding-left: 100px;
+	padding-left: 80px;
 }
 .pink-highlight{
 	color:#ff00aa;
@@ -115,16 +115,16 @@ body.section{
 ul.animated-thank-you { 
 
                  width:100%;
-                 max-width:1200px;
+                 /*max-width:1250px;*/
                  margin:0 auto;
                  font-weight:1000;
                  list-style-type: none;
                  padding: auto;
-                 padding: left 0;px;
+                 /*padding: left 0;px;*/
                  padding-top: 30px;
 }
 ul.animated-thank-you li { 
-                 float:left;
+                 /*float:left;*/
                  display:none;
                  height:170px;
                  font-family: "Space Mono", monospace;
