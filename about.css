@@ -131,5 +131,12 @@ body.section{
 	text-align: center;
 	margin-left:1.25rem;
 }
+  /* Smartphone Portrait and Landscape */
+  .mobileShow {display: none;}
+  @media only screen and (max-device-width : 600px){ 
+	  .mobileShow {display: inline;}
+	  
+  }
+  
 
 
