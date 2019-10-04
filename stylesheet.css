@@ -80,14 +80,13 @@ ul.animated-thank-you {
                  margin:0 auto;
                  font-weight:1000;
                  list-style-type: none;
-                 padding: auto;
-                 padding: left 0;
-                 padding-top: 50px;
+                 padding-top: 0;
+                 padding-bottom: 420px;
 }
 ul.animated-thank-you li { 
                  float:left;
                  display:none;
-                 height:160px;
+                 height:140px;
                  font-family: "Space Mono", monospace;
                  color: white;
                  letter-spacing: 4px;
@@ -97,10 +96,15 @@ ul.animated-thank-you li {
 }  
 ul.animated-thank-you li.hacktober{
 	font-family: 'Mansalva', cursive;
+<<<<<<< HEAD
 	font-size: 90px;
 	color: #ff00aa;
 	padding-top: 20px;
 	padding-bottom: 40px;
+=======
+	font-size: 80px;
+	color: green;
+>>>>>>> refs/remotes/origin/master
 }      
 @media screen and (min-width: 1024px){
 	.container{width: 85%}
@@ -124,36 +128,38 @@ body.section{
 @media only screen and (max-width: 600px) {
 	ul.animated-thank-you li{
 		font-size: 40px;
-		height: 150px;
+		height: 160px;
 		font-family: 'Mansalva', cursive;
+	}
+	ul.animated-thank-you{
+		padding-bottom: 100px;
 	}
 	body{
 		font-family: "Space Mono", monospace;
-		background-image: url("public/web-banner-HD-Updated.png");
+		background-image: url("public/Screenshot from 2019-10-02 09-04-03.png");
 		background-position: center;
-		background-repeat: no-repeat;
+		background-repeat: repeat;
 		color: #99a1b3;	
 		font-size: 20px;
-		background-size: 110% 140%;
 	}
 	ul.animated-thank-you li.hacktober {
-		font-size: 50px;
+		padding-top: 0;
+		font-size: 40px;
 	}
 }
 .title-4{
 	font-family: 'Space Mono', monospace;
-	font-size:1.5rem;
+	font-size:20px;
+	text-align: center;
 	font-weight: bold;
-    margin-left:1.25rem;
+    /*margin-left:1.25rem;*/
 	
 }
 .title-5{
 	font-family: 'Space Mono', monospace;
-	font-size:2rem;
+	font-size:25px;
 	font-weight: bold;
-	margin-top:0.25rem;
+	text-align: center;
 	color:white;
-	margin-left:1.25rem;
+
 }
-
-
