@@ -6,18 +6,12 @@ a:hover{
 }
 body{
 	font-family: "Space Mono", monospace;
-	background-image: url("public/Screenshot from 2019-10-02 09-04-03.png");
+	background-image: url("public/background.jpeg");
 	background-position: center;
-	background-size: cover;
+	background-size: 100%;
 	background-repeat: repeat;
 	color: #99a1b3;	
-	font-size: 20px
-}
-nav{
-	background-image: url("public/nav-banner.png");
-	background-position: center;
-	background-size: cover;	
-
+	font-size: 20px;
 }
 
 ul{
@@ -28,6 +22,11 @@ ul{
 #image{
 	padding: 30px;
 }
+.image1{
+	padding: 30px;
+	height: 200px;
+	width: 200px;
+}
 #image:hover{
 	transform: scale(1.2);
 }
@@ -36,17 +35,21 @@ ul{
 }
 .navbar-nav>li>a{
 	color: yellow !important;
-	padding-top: 40px;
+	padding-top: 25px;
 	height: 80px;
 	font-size: 20px;
+
 }
 .navbar-nav>li>a:hover{
 	color: white !important;
-	border-bottom: 2px solid #fff922;
+	border-bottom: 1.5px solid #fff922;
 }
 .navbar-default{
 	border: 0;
 	padding-bottom: 0;
+}
+.navbar-inner{
+    background-color: transparent;
 }
 .container-head{
 	width: auto;
@@ -55,29 +58,7 @@ ul{
 	padding-right: 0;
 	padding-bottom: 0;
 }
-.title-1{
-	font-family: 'Space Mono', monospace;
-	font-size:5rem;
-	font-weight: bolder;
-	/*margin-top:5rem;*/
-	color:yellow;
-	text-align:center;
-}
-.title-2{
-	font-family: 'Space Mono', monospace;
-	font-size:2.75rem;
-	font-weight: bold;
-	margin-top:2rem;
-	color:white;
-}
-.title-3{
-	font-family: 'Space Mono', monospace;
-	font-size:5rem;
-	font-weight: bold;
-	margin-top:5rem;
-	color:white;
-	text-align: center;
-}
+
 .container{
 	font-family: 'Space Mono', monospace;
 	flex-grow:1;
@@ -85,13 +66,10 @@ ul{
 	position:relative;
 	width:auto;
 }
-.steps-list{
+/*.steps-list{
 	margin-left:3%;
-}
+}*/
 
-.points{
-	padding-left: 100px;
-}
 .pink-highlight{
 	color:#ff00aa;
 }
@@ -102,24 +80,31 @@ ul.animated-thank-you {
                  margin:0 auto;
                  font-weight:1000;
                  list-style-type: none;
-                 padding: auto;
-                 padding: left 0;px;
-                 padding-top: 30px;
+                 padding-top: 0;
+                 padding-bottom: 420px;
 }
 ul.animated-thank-you li { 
                  float:left;
                  display:none;
-                 height:170px;
+                 height:140px;
                  font-family: "Space Mono", monospace;
                  color: white;
+                 letter-spacing: 4px;
                  font-size:  70px;
 				 padding-top: 10px;
                  
 }  
 ul.animated-thank-you li.hacktober{
 	font-family: 'Mansalva', cursive;
-	font-size: 95px;
+<<<<<<< HEAD
+	font-size: 90px;
 	color: #ff00aa;
+	padding-top: 20px;
+	padding-bottom: 40px;
+=======
+	font-size: 80px;
+	color: green;
+>>>>>>> refs/remotes/origin/master
 }      
 @media screen and (min-width: 1024px){
 	.container{width: 85%}
@@ -143,11 +128,38 @@ body.section{
 @media only screen and (max-width: 600px) {
 	ul.animated-thank-you li{
 		font-size: 40px;
-		height: 100px;
+		height: 160px;
 		font-family: 'Mansalva', cursive;
 	}
+	ul.animated-thank-you{
+		padding-bottom: 100px;
+	}
+	body{
+		font-family: "Space Mono", monospace;
+		background-image: url("public/Screenshot from 2019-10-02 09-04-03.png");
+		background-position: center;
+		background-repeat: repeat;
+		color: #99a1b3;	
+		font-size: 20px;
+	}
 	ul.animated-thank-you li.hacktober {
-		font-size: 50px;
+		padding-top: 0;
+		font-size: 40px;
 	}
 }
+.title-4{
+	font-family: 'Space Mono', monospace;
+	font-size:20px;
+	text-align: center;
+	font-weight: bold;
+    /*margin-left:1.25rem;*/
+	
+}
+.title-5{
+	font-family: 'Space Mono', monospace;
+	font-size:25px;
+	font-weight: bold;
+	text-align: center;
+	color:white;
 
+}
