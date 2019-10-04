@@ -9,7 +9,7 @@ body{
 	background-image: url("public/background.jpeg");
 	background-position: center;
 	background-size: 100%;
-	background-repeat: no-repeat;
+	background-repeat: repeat;
 	color: #99a1b3;	
 	font-size: 20px;
 }
@@ -36,7 +36,7 @@ ul{
 .navbar-nav>li>a{
 	color: yellow !important;
 	padding-top: 25px;
-	height: 60px;
+	height: 80px;
 	font-size: 20px;
 
 }
@@ -82,7 +82,6 @@ ul.animated-thank-you {
                  list-style-type: none;
                  padding: auto;
                  padding: left 0;
-                 /*padding-top: 50px;*/
 }
 ul.animated-thank-you li { 
                  float:left;
