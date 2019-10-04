@@ -8,10 +8,10 @@ body{
 	font-family: "Space Mono", monospace;
 	background-image: url("public/background.jpeg");
 	background-position: center;
-	background-size: 1500px auto ;
+	background-size: 100%;
 	background-repeat: no-repeat;
 	color: #99a1b3;	
-	font-size: 20px
+	font-size: 20px;
 }
 
 ul{
@@ -82,7 +82,7 @@ ul.animated-thank-you {
                  list-style-type: none;
                  padding: auto;
                  padding: left 0;
-                 padding-top: 50px;
+                 /*padding-top: 50px;*/
 }
 ul.animated-thank-you li { 
                  float:left;

@@ -16,7 +16,7 @@ jQuery(function(){
                         'display':'inline-block',
                     });
                     $( lists ).each(function( i ) {
-                        $(this).delay( i * 800 ).animate({ 
+                        $(this).delay( i * 700 ).animate({ 
                             'opacity': 1
                         });
                     });
