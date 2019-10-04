@@ -82,6 +82,7 @@ ul.animated-thank-you {
                  list-style-type: none;
                  padding: auto;
                  padding: left 0;
+                 padding-top: 50px;
 }
 ul.animated-thank-you li { 
                  float:left;
