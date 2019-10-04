@@ -156,3 +156,10 @@ body.section{
 	color:white;
 
 }
+  /* Smartphone Portrait and Landscape */
+.mobileShow {display: none;}
+@media only screen and (max-device-width : 600px){ 
+	.mobileShow {display: inline;}
+	
+}
+
