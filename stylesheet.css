@@ -36,7 +36,7 @@ ul{
 .navbar-nav>li>a{
 	color: yellow !important;
 	padding-top: 25px;
-	height: 80px;
+	height: 60px;
 	font-size: 20px;
 
 }
@@ -76,7 +76,7 @@ ul{
 ul.animated-thank-you { 
 
                  width:100%;
-                 max-width:1200px;
+                 max-width:1000px;
                  margin:0 auto;
                  font-weight:1000;
                  list-style-type: none;
@@ -86,17 +86,17 @@ ul.animated-thank-you {
 ul.animated-thank-you li { 
                  float:left;
                  display:none;
-                 height:140px;
+                 height:130px;
                  font-family: "Space Mono", monospace;
                  color: white;
                  letter-spacing: 4px;
-                 font-size:  70px;
+                 font-size:  55px;
 				 padding-top: 10px;
                  
 }  
 ul.animated-thank-you li.hacktober{
 	font-family: 'Mansalva', cursive;
-	font-size: 80px;
+	font-size: 60px;
 	color: #ff00aa;
 }      
 @media screen and (min-width: 1024px){
