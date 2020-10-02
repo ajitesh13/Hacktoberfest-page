@@ -5,11 +5,12 @@
 
 body {
     overflow-x: hidden;
+    background-color: #163a5e;
     @include body-font;
 }
 
 .text-muted {
-    color: $gray-light;
+    color: rgb(108, 210, 222);
 }
 
 .text-primary {
@@ -225,6 +226,7 @@ section {
         font-size: 40px;
         margin-top: 0;
         margin-bottom: 15px;
+        color: rgb(108, 210, 222);
     }
     h3.section-subheading {
         font-size: 16px;
@@ -233,6 +235,7 @@ section {
         font-style: italic;
         font-weight: 400;
         margin-bottom: 75px;
+        color: rgb(69, 128, 134);
     }
 }
 
@@ -247,6 +250,7 @@ section {
 .service-heading {
     margin: 15px 0;
     text-transform: none;
+    color: rgba(108, 211, 222, 0.548);
 }
 
 // Portfolio Section
@@ -411,9 +415,10 @@ section {
     .timeline-heading {
         h4 {
             margin-top: 0;
-            color: inherit;
+            color: rgb(108, 210, 222);
             &.subheading {
                 text-transform: none;
+                color: rgba(108, 211, 222, 0.658);
             }
         }
     }
