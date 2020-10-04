@@ -1,16 +1,23 @@
 <!-- Clients Aside -->
-<aside class="clients">
+<section id="clients">
+  <aside class="clients">
     <div class="container">
-        <div class="row">
-
-          {% for client in site.data.clients %}
-            <div class="col-md-3 col-sm-6">
-                <a href="{{ client.web }}" target="_blank">
-                    <img src="/assets/img/logos/{{ client.logo }}" class="img-responsive img-centered" alt="{{ client.img-alt }}">
-                </a>
-            </div>
-          {% endfor %}
-
+      <div class="row">
+        <h1>Resources</h1>
+        
+        {% for client in site.data.clients %}
+        <div class="col-md-4 col-sm-6">
+          <div class="resCard">
+            <a href="{{ client.web }}" target="_blank">
+              <h4 class="card-title">{{client.img-alt}}</h4>
+              <a href="{{client.web}}" class="btn btn-primary"> GO </a>
+            </a>
+          </div>
         </div>
+        {% endfor %}
+        
+        
+      </div>
     </div>
-</aside>
+  </aside>
+</section>
