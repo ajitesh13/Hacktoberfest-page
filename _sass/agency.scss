@@ -137,14 +137,14 @@ h1, h2, h3, h4, h5, h6 {
 
 @media(min-width:768px) {
     .navbar-custom {
-        background-color: transparent;
+        background-color: #193d5d;
         padding: 25px 0;
         -webkit-transition: padding 0.3s;
         -moz-transition: padding 0.3s;
         transition: padding 0.3s;
         border: none;
         .navbar-brand {
-            font-size: 2em;
+            font-size: 3rem;
             -webkit-transition: all 0.3s;
             -moz-transition: all 0.3s;
             transition: all 0.3s;
@@ -168,10 +168,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 header {
-    background-image: url('../assets/img/header-bg.jpg');
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-position: center center;
+    min-height: 100vh;
+    background-color: $gray-lighter;
     @include background-cover;
     text-align: center;
     color: white;
@@ -198,8 +196,8 @@ header {
 @media(min-width:768px) {
     header {
         .intro-text {
-            padding-top: 300px;
-            padding-bottom: 200px;
+            padding-top: 200px;
+            padding-bottom: 100px;
             .intro-lead-in {
                 @include serif-font;
                 font-style: italic;
