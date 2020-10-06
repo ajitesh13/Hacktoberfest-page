@@ -1,46 +1,48 @@
-- by: "speakername"
+- by: "Nirali Sahoo & Yash Tiwari"
   image: "1.jpg"
   img-alt: "Welcome to the event"
   title: "Welcome to the event"
   text: " What is Hacktoberfest? How it will benefit? Sign in to Hacktoberfest."
   side: left
 
-- by: "speakername"
+- by: "Swapnil Kole"
   image: "2.jpg"
-  img-alt: "Welcome to the event"
+  img-alt: "Introduction to the Open Source"
   title: "Introduction to Open-Source and GitHub"
-  text: " What is OpenSourcing? Why Open-Source? What is Git and GitHub? Explanation about other cloud based Git services."
+  text: " What is Open Sourcing? Why Open-Source? What is Git and GitHub? Explanation about other cloud based Git services."
   side: right
 
-- by: "speakername"
-  image: "4.jpg"
-  img-alt: "Introduction to DevOps"
-  title: "Introduction to DevOps"
-  text: " Getting started with DevOps. How to build a career in DevOps."
-  side: left
-
-- by: "speakername"
-  image: "3.jpg"
-  img-alt: "Introduction to OSS"
-  title: "Introduction to OSS"
-  text: "Demo of actually solving any random issue from an OSS organisation. How to find a beginner-friendly issue? Creating pull-request."
-  side: right
+# - by: "speakername"
+#   image: "4.jpg"
+#   img-alt: "Introduction to DevOps"
+#   title: "Introduction to DevOps"
+#   text: " Getting started with DevOps. How to build a career in DevOps."
+#   side: left
 
 
-- by: "speakername"
+- by: "Ruthvik"
   image: "1.jpg"
-  img-alt: "Talk by OSS Developers"
-  title: "Talk by OSS Developers"
+  img-alt: "Intro to GSoD and its Importance"
+  title: "Intro to GSoD and its Importance"
   text: " ***TALK***"
   side: left
 
 
-- by: "speakername"
-  image: "2.jpg"
-  img-alt: "Hands On Demonstration"
-  title: "Hands On Demonstration"
-  text: " Understanding how things are actually done. Create your first pull request."
+- by: "Raj Prakash Sahoo"
+  image: "3.jpg"
+  img-alt: "How to be an Open Source Champion"
+  title: "How to be an Open Source Champion"
+  text: "Demo of actually solving any random issue from an OSS organisation. How to find a beginner-friendly issue? Creating pull-request."
   side: right
+
+
+- by: "Ashish Malik"
+  image: "2.jpg"
+  img-alt: "Talk by GSoC Holder"
+  title: "Talk by GSoC Holder"
+  text: " Tips and tricks to crack GSoC"
+  side: left
+
 
 
 - by: "speakername"
@@ -49,5 +51,5 @@
   title: "Conclusion"
   text: "Information on Winter Of Code (to be conducted in December). Summarizing the evening.
 "
-  side: left
+  side: right
 
