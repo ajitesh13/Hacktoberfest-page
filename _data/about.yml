@@ -1,27 +1,55 @@
-- name: "Our Humble Beginnings"
+- by: "Nirali Sahoo & Yash Tiwari"
   image: "1.jpg"
-  img-alt: "image description"
-  year: "2009-2011"
-  text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+  img-alt: "Welcome to the event"
+  title: "Welcome to the event"
+  text: " What is Hacktoberfest? How it will benefit? Sign in to Hacktoberfest."
   side: left
 
-- name: "An Agency is Born"
+- by: "Swapnil Kole"
   image: "2.jpg"
-  img-alt: "image description"
-  year: "March 2011"
-  text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+  img-alt: "Introduction to the Open Source"
+  title: "Introduction to Open-Source and GitHub"
+  text: " What is Open Sourcing? Why Open-Source? What is Git and GitHub? Explanation about other cloud based Git services."
   side: right
 
-- name: "Transition to Full Service"
-  image: "3.jpg"
-  img-alt: "image description"
-  year: "December 2012"
-  text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+# - by: "speakername"
+#   image: "4.jpg"
+#   img-alt: "Introduction to DevOps"
+#   title: "Introduction to DevOps"
+#   text: " Getting started with DevOps. How to build a career in DevOps."
+#   side: left
+
+
+- by: "Ruthvik"
+  image: "1.jpg"
+  img-alt: "Intro to GSoD and its Importance"
+  title: "Intro to GSoD and its Importance"
+  text: " ***TALK***"
   side: left
 
-- name: "Phase Two Expansion"
-  image: "4.jpg"
-  img-alt: "image description"
-  year: "July 2014"
-  text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+
+- by: "Raj Prakash Sahoo"
+  image: "3.jpg"
+  img-alt: "How to be an Open Source Champion"
+  title: "How to be an Open Source Champion"
+  text: "Demo of actually solving any random issue from an OSS organisation. How to find a beginner-friendly issue? Creating pull-request."
   side: right
+
+
+- by: "Ashish Malik"
+  image: "2.jpg"
+  img-alt: "Talk by GSoC Holder"
+  title: "Talk by GSoC Holder"
+  text: " Tips and tricks to crack GSoC"
+  side: left
+
+
+
+- by: "speakername"
+  image: "3.jpg"
+  img-alt: "Conclusion"
+  title: "Conclusion"
+  text: "Information on Winter Of Code (to be conducted in December). Summarizing the evening.
+"
+  side: right
+

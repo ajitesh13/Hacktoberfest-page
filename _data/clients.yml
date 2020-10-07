@@ -1,15 +1,24 @@
-- img-alt: "Envato logo"
-  logo: "envato.jpg"
-  web: "http://envato.com/"
+- img-alt: "New to OpenSource?"
+  web: "https://www.digitalocean.com/community/tutorial_series/an-introduction-to-open-source"
 
-- img-alt: "Design Modo logo"
-  logo: "designmodo.jpg"
-  web:
+- img-alt: "How to Contribute?"
+  web: "https://opensource.guide/how-to-contribute/"
 
-- img-alt: "Theme Forest logo"
-  logo: "themeforest.jpg"
-  web:
+- img-alt: "How to Create a PR?"
+  web: "https://www.digitalocean.com/community/tutorials/how-to-create-a-pull-request-on-github"
 
-- img-alt: "Creative Market logo"
-  logo: "creative-market.jpg"
-  web:
+- img-alt: "Up for Grabs"
+  web: "https://up-for-grabs.net/#/"
+
+
+- img-alt: "IssueHub.io"
+  web: "http://issuehub.io/"
+
+- img-alt: "First Timers Only"
+  web: "https://www.firsttimersonly.com/"
+
+- img-alt: "Awesome for Beginners"
+  web: "https://github.com/mungell/awesome-for-beginners"
+
+- img-alt: "Code of Conduct"
+  web: "https://docs.google.com/document/d/1gFKOhyUqMZzrZcbq8A_TpO5x9J9HK6agv70awCH8pyI/edit"
